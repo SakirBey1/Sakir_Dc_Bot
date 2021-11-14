@@ -30,7 +30,7 @@ K_G = Client(
 def button():
 	BUTTON=[[InlineKeyboardButton(text="💻 Developer ",url="t.me/SakirBey1")]]
 	BUTTON+=[[InlineKeyboardButton(text="🛠 Support",url="t.me/kpdailesi")]]
-  BUTTON+=[[InlineKeyboardButton(text="➕ Beni Bir Gruba Ekle",url="https://t.me/dc_game_81_bot?startgroup=a")]]
+        BUTTON+=[[InlineKeyboardButton(text="➕ Beni Bir Gruba Ekle",url="https://t.me/dc_game_81_bot?startgroup=a")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
